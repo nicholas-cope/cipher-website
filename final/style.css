@@ -1,0 +1,134 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  
+}
+body{
+  background-color: #BB9457;
+  color: #0f4c5c;
+  text-align: center;
+  font-family: "Lucida Console", "Courier New", monospace;
+  margin: 0;
+}
+button {
+  font-size: 17px;
+  border-radius: 12px;
+}
+
+h2{
+  text-decoration: underline;
+  color: black;
+}
+
+
+.box{
+  border:  black solid 2px;
+  padding: 8px;
+  min-width:100px;
+  width: 20%;
+  display:inline-block;
+  vertical-align: top;
+  height: 150px;
+}
+
+textarea{
+  display: block;
+  margin-bottom: 1em;
+  margin-top: 0;
+  margin-right: auto;
+  margin-left: auto;
+  width: 70%;
+}
+
+input{
+  width: 80%;
+}
+
+#stripe{
+  background-color: #e36414;
+  color: #0f4c5c;
+  padding-top: 1em;
+  margin-top: 0;
+  padding-bottom: 3em;
+}
+
+
+#stripe2{
+  background-color: #EEF4ED;
+  padding-bottom: 1em;
+  padding-top: 4em;
+}
+#color1{
+  background-color:#fb8b24;
+  color: #5f0f40;
+}
+
+#codeText{
+  background-color:#8da9c4 ;
+  color: #134074 ;
+}
+#color2{
+  background-color:#9a031e;
+  color: #fb8b24;
+}
+
+#decodeShift
+{
+  background-color:#134074 ;
+  color:#eef4ed ;
+}
+#decodeButton{
+  background-color:#5f0f40 ;
+  color:#eef4ed ;
+}
+#color3{
+  background-color:#0f4c5c;
+  color: #e36414;
+}
+#decoded{
+  background-color:#0b2545;
+  color: #eef4ed;
+}
+#copyButton1{
+  background-color:#e36414;
+  color: #fb8b24;
+}
+
+#color4{
+  background-color:#99582A;
+}
+#plainText{
+  background-color:#BB9457;
+color:#432818;
+}
+
+#color5{
+  background-color:#FFE6A7;
+}
+#encodeButton{
+   background-color:#BB9457;
+color:#432818;
+}
+#encodeShift{
+   background-color:#99582A;
+color:#BB9457;
+}
+
+#color6{
+  background-color:#6F1D1B;
+  color:#BB9457;
+}
+
+#encoded{
+background-color:#FFE6A7;
+  color:#99582A;
+}
+
+#copyButton1{
+  background-color:#432818;
+  color:#FFE6A7;
+}
+
+img{
+  width: 300px;
+}

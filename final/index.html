@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="index.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Caesar Cipher</title>
+</head>
+
+<body>
+
+  <h2>Encoder</h2>
+  <div class="box" id="color4">
+    <p>Enter plain text: <input type='text' id='plainText'></p>
+  </div>
+  <div class="box" id="color5">
+    <p>Shift characters by: <input type='text' id="encodeShift"></p>
+    <button id="encodeButton">Encode</button>
+    <p id="encodeError"></p>
+  </div>
+  <div class="box" id="color6">
+    <p>Encoded text:</p>
+    <textarea id="encoded"></textarea>
+    <button id="copyButton1">Copy Text</button>
+  </div>
+  <p>&nbsp;</p>
+  <div id="stripe2">
+    <img src="./Images/caesar1.gif" alt="caesar cipher gif">
+    <p>&nbsp;</p>
+  </div>
+
+
+  <div id="stripe">
+    <h2>Decoder</h2>
+    <div class="box" id="color1">
+      <p>Enter encoded text: <input type='text' id='codeText'></p>
+    </div>
+    <div class="box" id="color2">
+      <p>Shifted characters by: <input type='text' id="decodeShift"></p>
+      <button id="decodeButton">Decode</button>
+      <p id="decodeError"></p>
+    </div>
+    <div class="box" id="color3">
+      <p>Decoded text:</p>
+      <textarea id="decoded"></textarea>
+      <button id="copyButton2">Copy Text</button>
+    </div>
+  </div>
+
+</body>
+
+</html>
